@@ -1,0 +1,35 @@
+{
+  "name": "react-webpack-starter",
+  "version": "1.0.0",
+  "description": "\"Boilerplate for react + webpack\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Pinki Mansukhani",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "comments": {
+    "babel-core": "Transpiles es6 stuff to browser friendly code",
+    "babel-loader": "Compile jsx",
+    "babel-preset-env": "Transpiles es6 and later versions. Also depending on browser being used.",
+    "html-webpack-plugin": "Generate build html file",
+    "webpack": "bundling",
+    "webpack-cli": "allows us to run webpack commands. used for build scripts",
+    "webpack-dev-server": "the webpack dev server"
+  }
+}
